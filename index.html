@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+
+<style>
+	#canvas{
+		border:dotted 1px yellow;
+		background:green;
+	}
+</style>
+
+<body>
+
+	<h1>Dibuja línea con botón sostenido</h1>
+	<canvas id="canvas" width="500px" height="300px">
+	Tu navegador no soporta el CANVAS
+	</canvas>
+	<div>
+	Color: <select id="color">
+	<option value="yellow">Amarillo</option>
+	<option value="blue">Azul</option>
+	<option value="black">Negro</option>
+	<option value="white">Blanco</option>
+	<option value="red">Rojo</option>
+	</select>
+	Línea: <select id="linea">
+	<option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+	<option value="5">5</option>
+	</select>
+	<input id="borrar" type="button" value="Borra todo"/>
+
+	<script src="main.js"></script>
+	
+</body>
+</html>
